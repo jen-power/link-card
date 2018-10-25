@@ -32,16 +32,28 @@ a {
   background-color: #cabdb2;
 }
 
-dl {
+.list {
   display: inline;
-  list-style-type: none;
-  font-size: .875rem;
-  text-align: center;
+  text-align: left;
 }
 
-dd {
+.lists {
+  display: inline;
+  border-top: 2px solid #9a816d;
+}
+
+ol {
+  display: inline-table;
+  list-style-type: none;
+  font-size: .875rem;
+  padding-left: 0;
+  max-width: 100px;
+  margin: 1rem;
+  }
+
+.list2 {
   font-style: italic;
-  margin: 0;
+  display: inline;
 }
 
 .btn {
@@ -59,4 +71,8 @@ dd {
 
 .link-card:hover .btn {
   background-color: #512200;
+}
+
+p {
+  margin-bottom: 0;
 }
